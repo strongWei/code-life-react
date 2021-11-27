@@ -1,0 +1,210 @@
+.layout {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: stretch;
+}
+
+.layout-aside {
+    width: 240px;
+    flex: none;
+    background-color: yellow;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: stretch;
+}
+
+.aside-title {
+    background-color: red;
+    width: 200px;
+    height: 40px;
+    margin: 20px auto;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aside-menu {
+    width: 100%;
+    flex: 1 0 auto;
+    margin-top: -8px;
+}
+
+.aside-menu .MuiMenuItem-root {
+    padding-left: 20px;
+}
+
+.aside-menu .MuiMenuItem-root .MuiSvgIcon-root {
+    margin-right: 10px;
+}
+
+.aside-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.layout-section {
+    flex: 1 0 auto;
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.section-main {
+    flex: 1 0 auto;
+    display: flex;
+    align-items: stretch;
+}
+
+.main-left {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    align-items: stretch;
+}
+
+.main-right {
+    flex: none;
+    width: 240px;
+}
+
+.main-right.MuiDrawer-root .MuiPaper-root{
+    position: static;
+}
+
+.section-footer {
+    height: 80px;
+    background-color: violet;
+    flex: none;
+}
+
+.date-filter {
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.date-pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px 10px 5px 0;
+    margin-right: 10px;
+}
+
+.add-event-box {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.add-event-box input[type=text]{
+    flex: 1 0 auto;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.event-list {
+    margin-top: 20px;
+}
+
+.event-list tbody tr td:nth-child(1).MuiTableCell-root{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+
+.draw-main{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    height: 100%;
+}
+
+.draw-header {
+    flex: none;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0 8px;
+}
+
+.header-left {
+    flex: 1 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.header-right {
+    flex: none;
+}
+
+.draw-content {
+    flex: 1 0 auto;
+    text-align: left;
+    padding: 0 20px;
+}
+
+.date-btn {
+    width: 80px;
+}
+
+.draw-content .form-item {
+    margin-top: 20px;
+}
+
+.draw-content .btn-group {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.draw-content .btn-group .icon-btn{
+    margin-right: 5px;
+}
+
+.draw-content .form-text .MuiInput-root {
+    font-size: 0.6rem;
+}
+
+.draw-content .form-text  .MuiInputLabel-root{
+    font-size: 0.8rem;
+}
+
+.draw-content .date-between-text {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.draw-footer{
+    flex: none;
+    display: flex;
+    border-top: 1px solid gray;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+.draw-footer .btn-group{
+    align-self: flex-end;
+    display: flex;
+    margin-right: 8px;
+}
+
+.draw-footer .save-btn{
+    margin-left: 8px;
+}

@@ -1,0 +1,8 @@
+.ellipse-icon-btn.MuiButton-root{
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+.ellipse-icon-btn .MuiButton-startIcon{
+    margin-right: 2px;
+}
